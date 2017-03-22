@@ -1,0 +1,1559 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px;
+  color: #666;
+  background-color:#fff;
+}
+.principal{
+	padding-top:152px;		
+}
+.secundario{
+	padding-top:60px;	
+}
+
+/*.container h1{
+	margin-top:0px;
+}*/
+.panel{
+	margin-bottom:0px;	
+}
+.form-horizontal .form-group{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.img-linea{
+	border-bottom:#0c8aff solid 3px; 
+}
+
+p{
+	color:#666;
+}
+
+.opacidad{
+	opacity: 1;
+}
+
+.opacidad:hover{
+	opacity: 0.8;
+}
+
+.redes_top{
+	margin-top:-8px;
+}
+
+blockquote {
+  border-left: 5px solid #ddd;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  text-align:center;
+  line-height: 20px;
+  border:thin solid #444;
+}
+
+h2.featurette-heading2{
+    font-size: 20px;
+	background-color:#333;
+	margin-top:0px;
+	padding:6px;
+	text-align:center;
+	border-top:#0c8aff solid 4px;
+  }
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-default{
+	background-color:#0073c4;
+	border-color:transparent;
+	
+	margin-bottom:0px;
+}
+.espacio{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.barra2 {
+    margin-bottom: 0px;
+    background-color: #ffcb00;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 0px;
+    height: 50px;
+}
+
+
+.toggle1 {
+    margin-top: 12px;
+}
+
+.toggle2 {
+    margin-top: 8px;
+}
+
+.navbar-default .navbar-nav > li > .botones {
+    color: #ffffff; /*Color de los enlaces de la botonera*/
+	padding-bottom:55px;
+	padding-top:55px;
+	
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff; /*Color de los enlaces de la botonera*/
+	
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ddd; /*Color de los enlaces de la botonera*/
+}
+
+.navbar-default .navbar-nav > .active > a{
+	color:#fff;
+	background: rgba(179,220,237,1);
+	background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,0.62)), color-stop(100%, rgba(0,115,196,0.23)));
+	background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#0073c4', GradientType=0 );
+	background-color:#479ad4;
+	border-bottom: 3px solid #f0c60c;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+	color:#fff;
+	background: rgba(226,226,226,1);
+	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,0.66) 50%, rgba(209,209,209,0.65) 51%, rgba(0,115,196,0.31) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,0.66)), color-stop(51%, rgba(209,209,209,0.65)), color-stop(100%, rgba(0,115,196,0.31)));
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,0.66) 50%, rgba(209,209,209,0.65) 51%, rgba(0,115,196,0.31) 100%);
+	background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,0.66) 50%, rgba(209,209,209,0.65) 51%, rgba(0,115,196,0.31) 100%);
+	background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,0.66) 50%, rgba(209,209,209,0.65) 51%, rgba(0,115,196,0.31) 100%);
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,0.66) 50%, rgba(209,209,209,0.65) 51%, rgba(0,115,196,0.31) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#0073c4', GradientType=0 );
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#fff;
+	background: rgba(179,220,237,1);
+	background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,0.62)), color-stop(100%, rgba(0,115,196,0.23)));
+	background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,0.62) 50%, rgba(0,115,196,0.23) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#0073c4', GradientType=0 );
+	background-color:#479ad4;
+	border-bottom: 3px solid #f0c60c;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #48637c;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ffcb00;
+	background-color:#ffcb00;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #0073c4;
+	background-color:#0073c4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-inverse{
+	background-color:#ffcb00;
+	border:none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #6b5500;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #766a3c;
+	
+}
+.alineamiento{
+	margin-left:30%;
+}
+
+.navbar-wrapper {
+	position: absolute;
+	top: -1px;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #bddaf4;
+}
+
+
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom:0px;
+}
+
+
+
+
+#Carousel2 > .carousel-control.left, #Carousel2 > .carousel-control.right, #Carousel3 > .carousel-control.left, #Carousel3 >.carousel-control.right,#Carousel4 > .carousel-control.right,#Carousel4 > .carousel-control.left,#Carousel5 > .carousel-control.left, #Carousel5 > .carousel-control.right,#Carousel6 > .carousel-control.left, #Carousel6 > .carousel-control.right,#Carousel7 > .carousel-control.left, #Carousel7 > .carousel-control.right,#Carousel8 > .carousel-control.left, #Carousel8 > .carousel-control.right  {
+	background-image:none;
+	/*opacity:0;*/
+}
+
+#Carousel2 > .carousel-indicators, #Carousel3 > .carousel-indicators,#Carousel4 > .carousel-indicators,#Carousel5 > .carousel-indicators,#Carousel6 > .carousel-indicators,#Carousel7 > .carousel-indicators,#Carousel8 > .carousel-indicators{
+	opacity:0;
+}
+
+.carousel p{
+	color:#fff;
+}
+
+/* Since positioning the image, we need to help out the caption 
+.carousel-caption {
+  z-index: 10;
+}*/
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #fff;
+  overflow:hidden;
+}
+.carousel-inner > .item > img {
+  width:100%;
+ 
+}
+.carousel-indicators li {
+    display: none;
+  }
+#myCarousel > .carousel-inner > .item > img {
+   min-height:100px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4, .marketing .col-lg-3, .marketing .col-xs-12, .marketing .col-sm-6, .marketing .col-md-6{
+  margin-bottom: 0px;
+  text-align: center;
+  color:#CCC;
+  padding-right: 0px;
+  padding-left: 0px;
+  border:thin #555 solid;
+}
+.marketing h2 {
+  text-align:center;
+  font-weight: normal;
+  color:#CCC;
+  margin-top: 0px;
+  background-color:#333;
+  font-size:25px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:center;
+  color:#CCC;
+}
+
+.marketing .col-lg-3 p.contenido_beta{
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:left;
+  color:#CCC;
+}
+
+.fondo_verde{
+	background-color:#9C0;
+	margin: 0px;
+	padding-bottom:20px;
+}
+
+.fondo_verde h2 {
+  font-weight: normal;
+  color:#333;
+  text-align:left;
+  margin-left:10px;
+}
+.fondo_verde .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: left;
+  color:#555;
+}
+
+/* Botones
+------------------------- */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 6px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading,  .featurette-heading2{
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+h2.titulo_diapo{
+	color:#fff;
+	background-color:#9C0;
+	padding:15px 10px;
+	text-align:center;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+ .pinta1{
+	  color:#fff;
+	background-color:#2c2c2c;  
+	}
+  .pinta2{
+	   color:#2aa145;
+		background-color:#2
+		c2c2c;
+}
+
+#logo1{
+		display:none;
+	}
+
+@media (min-width: 300px) and (max-width: 600px){
+	
+		
+  .carousel {
+  margin-bottom:20px;
+  }
+  
+  .carousel-caption p.contenido_alfa, .carousel-indicators{
+    display: none !important;
+  }
+  
+  .carousel-inner > .item > img {
+	  width:100%;
+  }
+
+  .carousel-caption h1{
+	  font-size:22px;
+  }
+  .carousel-caption a{
+	  font-size:15px;
+  }
+  
+  h2.titulo_diapo{
+	  font-size:22px;
+  }
+  
+  .categoria{
+	padding-top:50px;	
+	padding-bottom:50px;
+}
+
+}
+@media(max-width:1360px){/*Media-Query que uso para quitar la imagen grande del centro y disminuir el navbar porque al bajar de 
+                           de resolucion se solapaban las botoneras derecha e izquierda*/
+	body {
+  		padding-bottom: 0px;
+  		color: #666;
+  		background-color:#fff;
+	}
+	.altura-1{
+		height:60px;	
+	}
+	
+	.principal{
+		padding-top:60px;	
+	}
+	#logo1{
+		display:inline;
+	}
+	.nav > li > .botones {
+    position: relative;
+    display: block;
+    padding: 7px 7px;
+	
+    }
+	.iconos{ /*para cambiar los botones del primer navbar de fa-2x a 1em*/
+		font-size:1em;!important
+	}
+	
+	#logo2{
+		display:none;!important
+	}
+	
+	.navbar-default{
+		background-color:#0073c4;
+		border-color:transparent;
+		margin-bottom:0px;
+	}
+	#navbar > .navbar-nav{
+		padding-top:0px;	
+	}
+	
+	.navbar-default .navbar-nav > li > .botones {
+    color: #ffffff; /*Color de los enlaces de la botonera*/
+	padding-bottom:15px;
+	padding-top:15px;
+	
+}
+	
+}
+@media(max-width:1280px){
+	body {
+  		padding-bottom: 0px;
+  		color: #666;
+  		background-color:#fff;
+	}
+	.principal{
+		padding-top:60px;	
+	}
+	#logo1{
+		display:block;
+	}	
+	#logo2{
+		display:none;!important
+	}
+	.navbar-default{
+		background-color:#0073c4;
+		border-color:transparent;
+		
+		margin-bottom:0px;
+	}
+	#navbar > .navbar-nav{
+		padding-top:0px;	
+	}
+	.altura-1{
+		height:60px;
+	}
+		
+}
+
+@media (max-width: 480px) {/* Adaptar detalles a resolución de Telefonos*/
+
+	body {
+	    padding-bottom: 0px;
+	    color: #666;
+	    background-color:#fff;
+	}
+	.principal{
+		padding-top:60px;
+	}
+	.navbar-default{
+		background-color:#0073c4;
+		border-color:transparent;
+		margin-bottom:0px;
+	}
+	.altura-1{
+		height:60px;	
+	}
+	  .categoria{
+	padding-top:50px;	
+	padding-bottom:50px;
+}
+
+}
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  
+
+
+	  .navbar {
+		  min-height:20px;
+	  }
+	  .navbar-wrapper .container {
+		padding-right: 15px;
+		padding-left: 15px;
+	  }
+	  .navbar-wrapper .navbar {
+		padding-right: 0;
+		padding-left: 0;
+	  }
+	
+	  /* The navbar becomes detached from the top, so we round the corners */
+	  .navbar-wrapper .navbar {
+		border-radius: 4px;
+	  }
+	
+	  /* Bump up size of carousel content */
+	  .carousel-caption p {
+		margin-bottom: 20px;
+		font-size: 21px;
+		line-height: 1.4;
+	  }
+	
+	  .featurette-heading {
+		font-size: 35px;
+	  }
+	  
+	  
+
+ 
+}
+@media (max-width: 990px){
+
+.navbar-default{
+		background-color:#0073c4;
+		border-color:transparent;
+		
+		margin-bottom:0px;
+}
+	.altura-1{
+		height:60px;
+	}
+	body {
+	    padding-bottom: 0px;
+	    color: #666;
+	    background-color:#fff;
+	}
+	.principal{
+		padding-top:60px;	
+	}
+	  .categoria{
+	padding-top:25px;	
+	padding-bottom:25px;
+}
+}
+
+
+@media (min-width: 992px) {
+	
+  .featurette-heading {
+    margin-top: 20px;
+  }
+  
+  .navbar-nav > li > a {
+	  border-color:#6b5500;
+	  
+	}
+	
+}
+
+@media (max-width: 990px) {
+
+	.elemento_off{
+		display:none;!important
+	}
+  
+  .alineamiento{
+		margin-left:0px;
+	}
+  
+  .navbar-default .navbar-nav > li > .botones {
+    color: #ffffff; /*Color de los enlaces de la botonera*/
+	font-weight:bold;
+	padding:12px 10px 12px 10px;
+  }
+}
+
+/* Personalizar paginacion*/
+
+nav.pagina{
+	text-align:center;
+}
+
+.pagination > .active > a{
+	background-color:#9C0;
+	border-color:#83af00
+}
+
+.pagination > .active > a:hover{
+	background-color:#9C0;
+	border-color:#83af00
+}
+
+.pagination > li > a{
+	color:#666;
+}
+
+.pagination > li > a:hover{
+	color:#333;
+}
+
+.no_margin{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.no_margin2{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.no_margin3{
+	margin-bottom:0px;
+}
+.no_padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+.no_padding2{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.no_padding3{
+	padding-left:0px;
+}
+.panel-buscador{
+	border-radius: 0px;
+	border-color: #1b4259;
+	/*margin-bottom:0px;*/
+}
+
+.panel-buscador > .panel-heading {
+   
+    border-bottom: 1px solid #1b4259;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	color: #fff;
+    background-color: #1b4259;
+    border-color: ##1b4259;
+}
+
+.panel-buscador > .panel-footer  {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #176f2b;
+    border-color: #176f2b;
+}
+
+.panel-buscador > .panel-footer > .btn-default {
+   background-color: #176f2b;
+   border-bottom: 1px solid #176f2b;
+   border-color:transparent;
+   color: #fff;
+}
+.panel-cotizacion{
+	border-radius: 0px;
+	border-color:transparent;
+	/*margin-top:20px;*/
+    
+}
+
+.panel-buscador {
+    margin-bottom: 0px;
+	border-color:transparent;
+   
+}	
+
+.panel-cotizacion > .panel-heading {
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	background-color:#404040; 
+	color:#fff;
+	border-color:#404040;
+}
+
+.panel-promociones > .panel-heading {
+	padding: 0px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	border-color:transparent;
+}
+
+#especial-heading{
+	padding: 10px 15px;!important
+}
+.panel-cotizacion > .panel-footer {
+    padding: 0px 0px;
+	color: #6b5500;
+	background-color:transparent;
+    border-color:#ffcb00;
+	
+}
+.panel-cotizacion > .panel-body {
+	border-color:transparent;	
+}
+.panel-cotizacion > .panel-footer > .btn-default {
+   background-color: #ffcb00;
+   border-color:transparent;
+   border-radius:0px;
+   color: #6b5500;
+}
+.panel-cotizacion > .panel-footer > .btn-default:hover {
+   background-color: #e2b504;
+   border-color: #e2b504;
+   color: #6b5500;
+}
+.separador-izq{
+	border-left:thin #666 solid;
+	
+}
+
+.panel-promociones > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: transparent;
+}
+.panel-promociones > .panel-footer > .btn-default {
+   background-color: transparent;
+   border-color: transparent;
+   
+}
+.panel-promociones > .panel-footer > .btn-default:hover {
+   background-color: transparent;
+   border-color: transparent;
+  
+}
+.panel-facebook > .panel-heading{
+	background-color:#3a5795;
+	color:#fff;
+}
+
+.panel-twitter > .panel-heading{
+	background-color:#029bbb;
+	color:#fff;
+}
+.panel-instagram > .panel-heading{
+	background-color:#144f75;
+	color:#fff;
+}
+.panel-noticias{
+	border-radius: 0px;
+	border-color: #2f9cbd;
+	/*margin-bottom:0px;*/
+}
+
+.panel-noticias > .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	
+	color: #004784;
+    background-color: #2bb5df;
+    border-color: #2f9cbd;
+}
+
+.panel-noticias > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	
+	color: #004784;
+    background-color: #2bb5df;
+    border-color: #2f9cbd;
+}
+
+.panel-excursiones{
+	border-radius: 0px;
+	border-color: #084365;
+	margin-top:20px;
+}
+
+.panel-excursiones > .panel-heading {
+    padding:0px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	color: #fff;
+	background-color:#42d1f2;
+	background-image:url(/imagenes/degrade_azul.jpg);
+	background-repeat:repeat-y;
+    border-color: transparent;
+}
+
+.panel-excursiones > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	color: #fff;
+    background-color:#42d1f2;
+	background-repeat:repeat-y;
+    border-color: transparent;
+}
+.panel-excursiones > .panel-footer > .btn-default {
+   background-color: transparent;
+   border-color: transparent;
+   color: #fff;
+}
+.panel-excursiones > .panel-footer > .btn-default:hover {
+   background-color: transparent;
+   border-color: transparent;
+   color: #084365;
+}
+
+.panel-destinos{
+	border-radius: 0px;
+	border-color: #8d5da8;
+}
+
+.panel-destinos > .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	
+	color: #c776f5;
+    background-color: #603877;
+    border-color: transparent;
+}
+
+.panel-destinos > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	
+	color: #c776f5;
+    background-color: #603877;
+    border-color: transparent;
+}
+
+.panel-paquetes{
+	border-radius: 0px;
+	border-color: #9f2a24;
+	margin-top:20px;
+}
+
+.panel-paquetes > .panel-heading {
+    padding: 0px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	color: #fff;
+    background-color: #f67127;
+    border-color: transparent;
+	background-image:url(/imagenes/degrade_rojo.jpg);
+	background-repeat:repeat-y;
+}
+
+ .panel-paquetes > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	color: #fff;
+	background-image:url(/imagenes/degrade_rojo.jpg);
+	background-repeat:repeat-y;
+    background-color: #f67127;
+    border-color: transparent;
+}
+.panel-paquetes > .panel-footer > .btn-default {
+   background-color: transparent;
+   border-color: transparent;
+   color: #fff;
+}
+.panel-paquetes > .panel-footer > .btn-default:hover {
+   background-color: transparent;
+   border-color: transparent;
+   color: #9f2a24;
+}
+.panel-servicios{
+	border-radius: 0px;
+	border-color: #9e7e0d;
+	margin-top:20px;
+}
+
+.panel-servicios > .panel-heading {
+    padding: 0px 0px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	background-image:url(/imagenes/degrade_amarillo.jpg);
+	background-repeat:repeat-y;
+	color: #fff;
+    background-color: #f6cc08;
+    border-color:transparent;
+}
+
+.panel-servicios > .panel-footer {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	color: #fff;
+    background-color: #f6cd07;
+	background-image:url(/imagenes/degrade_amarillo.jpg);
+	background-repeat:repeat-y;
+    
+}
+.panel-servicios > .panel-footer > .btn-default {
+   background-color: transparent;
+   border-color: transparent;
+   color: #fff;
+}
+.panel-servicios > .panel-footer > .btn-default:hover {
+   background-color: transparent;
+   border-color: transparent;
+   color: #9e7e0d;
+}
+.panel-reserva > .panel-body{
+	border-left:1px solid #bfbdbd;
+	border-right:1px solid #bfbdbd;
+	border-top:	1px solid #bfbdbd;
+}
+.panel-reserva > .panel-footer{
+	border-left:1px solid #bfbdbd;
+	border-right:1px solid #bfbdbd;
+	border-bottom:	1px solid #bfbdbd;
+}
+.panel-reserva > .panel-heading {
+	color:#fff;
+	background-color:#2aa145;
+	border-left:1px solid #53ac6a;
+	border-right:1px solid #53ac6a;
+	border-bottom:1px solid #bfbdbd;
+	border-top-color:#2aa145;
+	
+	border-right-color:#2aa145;
+	border-radius:0px;	
+}
+ .btn-registro{
+	 background-color:#176f2b;	
+	 border-radius:0px;
+	 border-color:#176f2b;	
+}
+.btn-registro2{
+	background-color: #ccc;
+	border-color: #ccc;
+	border-radius:0px;
+	
+}
+.btn-registro2:hover{
+	background-color: #fff;
+	border-color: #fff;
+	border-radius:0px;
+	
+}
+
+
+
+/* Pie de pagina
+------------------------- */
+footer {
+    padding: 40px 0px 20px 0px;
+    background-color: #2c2c2c;
+    color: #ddd;
+}
+
+footer p{
+	color:#ffcb00;
+}
+
+footer a{
+	color:#fff;		
+	text-decoration:none;		
+}
+
+footer a:hover{
+	color:#176f2b;			
+}
+
+.items{
+	list-style-type: none;	
+	padding-left:15px;				
+}
+
+
+
+.items a:hover{
+	font-size:13px;
+	color:#ffcb00;			
+}
+
+.searchboxContainer{
+	margin: 50px 0px 0px 0px !important;
+}
+
+/*---------------------------------*/
+
+.verde{
+	background-color:#2aa145;
+}
+
+.ir-arriba:hover{
+	color:#ffffff;	
+}
+.enlace{
+	color:#fff;	
+	text-decoration:none;
+}
+.enlace:hover{
+	color:#66b57a;	
+	text-decoration:none;
+}
+.fondo_redes{
+	background-color:#2aa145;
+	background-repeat:no-repeat;
+	padding-top:30px;
+	
+}
+
+#imagen-1 {
+    background-image: url("/imagenes/hoteless.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+#imagen-2 {
+    background-image: url("/imagenes/excursiones.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+#imagen-3 {
+    background-image: url("/imagenes/paquetes.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+#imagen-4 {
+    background-image: url("/imagenes/servicios.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+#form_ordenar > .form-group > label {
+	color:#0073c4;	
+}
+#form_ordenar > .form-group > .form-control {
+	color: #31708f;
+    background-color: #fff;
+    border-color: #bce8f1;	
+}
+#form_ordenar >.form-group > .form-control:hover {
+	color: #31708f;
+    background-color: #d9edf7;
+    border-color: #d6e9c6;	
+}
+.seleccion{
+background-color:#2aa145;
+border-color:#2aa145;
+color#fff;	
+}
+.panel > .panel-body > .list-group > .list-group-item > .row > .col-xs-2 {
+	margin-left:3px;	
+}
+
+#color-user,.noticia{
+	color:#2aa145;	
+}
+.form-control {
+    
+    border-color: #ddd;
+  
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+	
+}
+.btn-contacto{
+	background-color:#176f2b;
+	border-color:#176f2b;
+	border-radius:0px;
+	color:#fff;	
+	
+}
+.titulo{
+	font-weight: bold;
+	color:#000;	
+}
+.titulo > p {
+ margin: 0 0 0px;	
+}
+.fb-page{
+	width: 100% !important;	
+}
+#map {
+	height: 400px;
+	width: 600px;
+	border: 1px solid #333;
+	margin-top: 0.6em;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+
+ .iconos-btn{
+    color: #fff;
+}
+.iconos-btn:hover{
+    color: #ffcb00;
+	text-decoration:none;
+}
+
+.navbar-brand {
+    float: left;
+    padding-left: 35px;
+	padding-right: 35px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.fuente-categoria{
+	color:#fff;
+	font-size: 12px;	
+}
+.fuente-categoria:hover{
+	color:#ffcb00;	
+}
+.form-control,.btn{
+	border-radius:0px;
+}
+
+.breadcrumb{
+ background-color:#0073c4;	
+ border-radius: 0px;
+}
+.breadcrumb > li {
+	color:#fff;	
+}
+.breadcrumb > li > a {
+	color:#fff;
+	text-decoration:none;	
+}
+.breadcrumb > .active {
+	color:#fff;
+	font-weight:bold;	
+}
+
+
+
+.posicionar_btn{
+	position:absolute;
+	top:50px;	
+}
+
+col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+ 
+.col-xs-15
+{
+    width: 20%;
+    float: left;
+}
+ 
+.col-xs-16,
+.col-sm-16,
+.col-md-16,
+.col-lg-16
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+ 
+.col-xs-16
+{
+    width: 10%;
+    float: left;
+} 
+@media (min-width: 768px)
+{
+	
+    .col-sm-15
+    {
+        width: 20%;
+        float: left;
+    }
+	
+	 .col-sm-16
+    {
+        width: 10%;
+        float: left;
+    }
+		
+	.navbar-categoria{
+		background-image:none;
+		padding-bottom:0px;
+		
+	}
+	
+	.excursiones, .promociones,.registro,.contacto{
+		background-image:none;
+		padding-bottom:0px;
+		
+			
+	}
+	
+	
+#visible-xs{
+	display:block;
+}
+.ajuste-margin{
+	margin-top:15px;
+	margin-bottom:0px;	
+}
+
+#cotizador-boletos > .panel-cotizacion > .panel-body > form > .container-fluid > .row >.col-lg-6{
+	
+padding-right:0px;	
+	
+}
+
+#cotizador-boletos > .panel-cotizacion > .panel-body > form > .container-fluid > .row >.espaciado-10{
+	
+padding-right:10px;	
+	
+}
+
+
+}
+ 
+@media (min-width: 992px)
+{
+	.categoria{
+	padding-top:100px;	
+	padding-bottom:0px;
+   }
+     .col-md-15
+     {
+        width: 20%;
+        float: left;
+		
+    }
+	 .col-md-16
+    {
+        width: 10%;
+        float: left;
+    }
+
+	.navbar-categoria{
+	background-image: url(/imagenes/fondo-categoria.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:2200px;
+ 	background-color:transparent;
+	border-color:transparent;
+	border-radius:0px;
+	padding-bottom:100px;
+	
+	
+}
+.excursiones{
+	background-image:url(/imagenes/fondo-excursion.jpg);
+	background-repeat:repeat-x;
+	background-position: center;
+	background-size:2200px;
+		
+}
+.promociones{
+	background-image:url(/imagenes/promociones.jpg);
+	background-repeat:repeat-x;
+	background-position: center;
+	background-size:2200px;
+	
+}
+.contacto{
+    background-image:url(/imagenes/fondo-contacto.jpg); 
+    background-repeat:no-repeat;
+  	background-position: center;
+	background-size: 100% 100%;	
+}
+.registro{
+    background-image:url(/imagenes/formularios.jpg); 
+	background-repeat:no-repeat;
+    background-position: center;
+    background-size: 100% 100%;	
+}
+.promociones > .col-xs-12 > h1{
+		color:#fff;	
+ }	
+ .excursiones > .col-xs-12 > h1{
+	    color:#fff;
+	 }
+	#visible-xs{
+		display:none;
+	}
+	
+	#cotizador-boletos > .panel-cotizacion > .panel-body > form > .container-fluid > .row >.espaciado-10{
+	
+padding-right:10px;	
+	
+}
+
+
+}
+ 
+@media (min-width: 1200px)
+{
+	.categoria{
+		padding-top:100px;	
+		padding-bottom:0px;
+		}
+    .col-lg-15
+    {
+        width: 20%;
+        float: left;
+    }
+	 .col-lg-16
+    {
+        width: 10%;
+        float: left;
+    }
+	
+	.navbar-categoria{
+		background-image: url(/imagenes/fondo-categoria.jpg);
+		background-repeat:no-repeat;
+		background-position: center;
+		background-size:2200px;
+	 	background-color:transparent;
+		border-color:transparent;
+		border-radius:0px;
+		padding-bottom:100px;
+		background-color:none;
+
+	}
+.excursiones{
+	background-image:url(/imagenes/fondo-excursion.jpg);
+	background-repeat:repeat-x;
+	background-position: center;
+	background-size:2200px;
+}
+.contacto{
+		background-image:url(/imagenes/fondo-contacto.jpg);
+		background-repeat:no-repeat;
+		background-position: center;
+	    background-size: 100% 100%;
+			
+}
+.registro{
+	background-image:url(/imagenes/formularios.jpg);
+	background-repeat:no-repeat;	
+	background-position: center;
+	background-size: 100% 100%;
+}
+.promociones{
+	background-image:url(/imagenes/fondo-promo.jpg);
+	background-repeat:repeat-x;
+	background-position: center;
+	background-size:2200px
+}	
+
+#visible-xs{
+	display:none;
+}	
+ .promociones > .col-xs-12 > h1{
+		color:#fff;	
+ }
+ .excursiones > .col-xs-12 > h1{
+	    color:#fff;
+	 }
+	 
+	 #cotizador-boletos > .panel-cotizacion > .panel-body > form > .container-fluid > .row >.espaciado-10{
+	
+padding-right:10px;	
+	
+}
+
+
+}
+
+.form-control {
+    border-radius: 0px;
+    border-color: #ddd;
+    border-left: none;
+    
+}
+
+.input-group-addon {
+
+	padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #0073c4;
+    cursor: default;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-bottom-color:transparent;
+    
+    
+}
+
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border:transparent;
+    border-radius: 0px 0px 0 0;
+    background-color: #e6e6e6;
+    color:#929292;
+}
+
+.paneltabs{
+	border-top: none;
+	border: 0.5px solid #ccc;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+}
+#facilidades > .fa {
+	padding-right:5px;
+}
+.google-map{
+    overflow: hidden;
+}
+
+.color-fa{
+	color:#0073c4;	
+}
+.color-fa2{
+	color:#e6e6e6;	
+}
+
+.form-group{
+ 	margin-bottom: 11px;	
+}
+.navbar-nav > li > .paddingtb10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-fluid > .promociones >.col-lg-15{
+	padding-left: 15px;
+	padding-top: 20px;   	
+}
+.container-fluid > .excursiones >.col-lg-15{
+	padding-left: 15px;
+	padding-top: 20px;   	
+}
+.container-fluid > .promociones >.col-lg-15 > .panel-cotizacion > .panel-header{
+	background-color:#0073c4; 
+	color:#fff;	
+}
+.container-fluid > .excursiones >.col-lg-15 > .panel-cotizacion > .panel-header{
+	background-color:#0073c4; 
+	color:#fff;	
+}
+#hoteles{
+	background-color:#fff;	
+}
+container-fluid  > #hoteles > .col-lg-4 > .panel-cotizacion > .panel-header{
+	background-color:#0073c4; 
+	color:#fff;	
+}
+container-fluid  > #hoteles > .col-lg-4 > .panel-cotizacion > .panel-header > h4{
+	
+}
+.container-fluid > .promociones >.col-lg-15 > .panel-cotizacion > .panel-header > h4{
+	padding-bottom:15px;
+	 padding-top:15px;	
+}
+
+.container-fluid > .excursiones >.col-lg-15 > .panel-cotizacion > .panel-header > h4{
+	padding-bottom:15px;
+	 padding-top:15px;	
+}
+.container-fluid > .promociones > .paddingtb3530{
+	padding-bottom:35px; 
+	padding-top:30px;
+}
+.container-fluid > .excursiones > .paddingtb3530{
+	padding-bottom:35px; 
+	padding-top:30px;
+}
+
+
+
+.paddingt7 {
+ padding-top:7px;		
+}
+.margin2020tb{
+	margin-top:20px; 
+	margin-bottom:20px;
+	
+}
+.panel {
+    
+    -webkit-box-shadow: 0 0px 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); */
+}
+
+.items a{
+	font-size:13px;
+	text-decoration:none;		
+}
+/*---------------------------------------------------------------------*/
+/*-----------------------------GALLERY---------------------------------*/
+/*---------------------------------------------------------------------*/
