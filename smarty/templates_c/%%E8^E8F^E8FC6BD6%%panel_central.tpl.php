@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.9, created on 2017-03-21 19:45:42
+<?php /* Smarty version 2.6.9, created on 2017-03-22 22:35:16
          compiled from admin/panel_central.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/plantilla_admin.dwt" codeOutsideHTMLIsLocked="false" -->

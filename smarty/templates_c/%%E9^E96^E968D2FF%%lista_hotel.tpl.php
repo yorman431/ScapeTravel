@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.9, created on 2017-03-21 21:18:01
+<?php /* Smarty version 2.6.9, created on 2017-03-22 22:59:12
          compiled from admin/hotel/lista_hotel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'admin/hotel/lista_hotel.tpl', 97, false),array('function', 'paginate_prev', 'admin/hotel/lista_hotel.tpl', 136, false),array('function', 'paginate_middle', 'admin/hotel/lista_hotel.tpl', 136, false),array('function', 'paginate_next', 'admin/hotel/lista_hotel.tpl', 136, false),)), $this); ?>

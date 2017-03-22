@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.9, created on 2017-03-22 04:10:22
+<?php /* Smarty version 2.6.9, created on 2017-03-22 22:37:40
          compiled from catalogo_hotel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'catalogo_hotel.tpl', 229, false),array('modifier', 'lower', 'catalogo_hotel.tpl', 768, false),array('modifier', 'capitalize', 'catalogo_hotel.tpl', 768, false),)), $this); ?>

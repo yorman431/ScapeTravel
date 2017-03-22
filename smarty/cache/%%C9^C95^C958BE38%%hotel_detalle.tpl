@@ -1,42 +1,30 @@
 139
-a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152897;s:7:"expires";i:1490156497;s:13:"cache_serials";a:0:{}}<!DOCTYPE html>
+a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490219002;s:7:"expires";i:1490222602;s:13:"cache_serials";a:0:{}}<!DOCTYPE html>
 <html><!-- InstanceBegin template="/Templates/plantilla_padre2.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="title" content="Hoteles &raquo; Hotel Coche Paradise | Agencia de Viajes Scape Travel Marketing | Venezuela" />
+    <meta name="title" content="Hoteles &raquo; LD Hotel Palm Beach | Agencia de Viajes Scape Travel Marketing | Venezuela" />
     <meta name="author" content="Scape Travel, C.A." />
-    <meta name="subject" content="Hoteles &raquo; Hotel Coche Paradise | Agencia de Viajes Scape Travel Marketing | Venezuela" />
+    <meta name="subject" content="Hoteles &raquo; LD Hotel Palm Beach | Agencia de Viajes Scape Travel Marketing | Venezuela" />
     <meta name="description" content="
-	Servicio &ldquo;Todo Incluido&rdquo;
+	Acogedor hotel, ideal para disfrutar de unas vacaciones inolvidables, donde encontrar&aacute; un ambiente tranquilo, rodeado de confort y buen servicio, situado cerca del hermoso boulevard del Playa El Agua, la m&aacute;s concurrida de La Isla; adem&aacute;s podr&aacute; disfrutar de una sugestiva &aacute;rea de piscina, perfecta para sumergirse en un completo relax, recomendado para personas de todas las edades y familias con ni&ntilde;os.
 
-	&ndash; Traslados en lancha cubierta playa El Yaque &ndash; Isla de Coche &ndash; playa El Yaque.
-	&ndash; Alojamiento.
-	&ndash; Desayuno, almuerzo, snack y cena (Buffet).
-	&ndash; Bebidas nacionales (Bar abierto).
-	&ndash; Show y espect&aacute;culos .
-	&ndash; Disco.
+	Servicios:
 
-	FACILIDADES:
+	El hotel cuenta con un deleitable &aacute;rea de restaurant, snack bar, jardines y piscina tanto para adultos como para ni&ntilde;os, ofrece servicio de transporte gratuito hacia su club de playa cada media hora donde se sirven aperitivos (incluye sillas y toldos); adem&aacute;s cuenta con sal&oacute;n para convenciones con capacidad para 90 personas, tiendas y servicios de taxi (costo adicional).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-	&bull; Magn&iacute;ficos jardines
-	&bull; Cancha de bolas criollas
-	&bull; Piscina de relajaci&oacute;n para adultos.
-	&bull; Piscina Panor&aacute;mica para la recreaci&oacute;n y entretenimiento de adultos y ni&ntilde;os.
-	&bull; Actividades recreativas (no motorizadas)
-	&bull; Toldos y sillas en la playa y &aacute;reas de la piscina
-	&bull; Gimnasio
-	&bull; Sal&oacute;n para juegos
-	&bull; Centro de convenciones
-	&bull; Bodeg&oacute;n
-	&bull; Restaurante Buffet &ndash; Las Palmeras
-	&bull; Restaurante de especialidades a la carta (pr&oacute;ximamente)
-	&bull; Servicio al hu&eacute;sped (adicional)
-	&bull; Wifi
+	8 Boh&iacute;o:
+
+	Ubicados en el centro del hotel, son de 2 niveles, en la parte superior est&aacute;n 2 camas individuales, en planta baja, 1 cama matrimonial, con capacidad de anexar 1 cama individual, para un m&aacute;ximo de 5 personas. football news
+
+	Plan Todo Incluido (AI)
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alojamiento, desayuno, almuerzo, cena, servido tipo buffet, snack, bebidas alcoh&oacute;lica y no alcoh&oacute;licas nacionales ilimitadas, actividades recreativas.
 " />
 
-    <meta name="Keywords" content=""/>
+    <meta name="Keywords" content=" LD Hotel Palm Beach, hotel en margarita,Hoteles"/>
 
     <link rel="icon" href="/imagenes/icono.ico"/>
     <meta name="Language" content="Spanish" />
@@ -44,7 +32,7 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
     <meta name="Distribution" content="Global"/>
     <meta name="Robots" content="All" />
     <meta charset="utf-8">
-    <title>Hoteles &raquo; Hotel Coche Paradise | Agencia de Viajes Scape Travel Marketing | Venezuela</title>
+    <title>Hoteles &raquo; LD Hotel Palm Beach | Agencia de Viajes Scape Travel Marketing | Venezuela</title>
 
     <script src="/js/validar.js"></script>
     <link href="/dist/css/bootstrap.css" rel="stylesheet">
@@ -196,7 +184,7 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
     <div class="container-fluid no_padding">
     	<div class="row">
         	<div class="col-xs-12" align="center">
-            	 <h2 style="margin-bottom:30px; margin-top:30px;">Hotel Coche Paradise</h2>
+            	 <h2 style="margin-bottom:30px; margin-top:30px;">LD Hotel Palm Beach</h2>
           </div>
       <!--Banner detalles -->
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -210,97 +198,21 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
                                 <li data-target="#galeria_hotel" data-slide-to="1" ></li>
                                 <li data-target="#galeria_hotel" data-slide-to="2" ></li>
                                 <li data-target="#galeria_hotel" data-slide-to="3" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="4" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="5" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="6" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="7" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="8" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="9" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="10" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="11" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="12" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="13" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="14" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="15" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="16" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="17" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="18" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="19" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="20" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="21" ></li>
-                                <li data-target="#galeria_hotel" data-slide-to="22" ></li>
                               </ol>
 
           <div class="carousel-inner" role="listbox">
 
                                 <div class="item active">
-              <img class="img-responsive" alt="areaverde" src="/imagenes/hotel/1473949561.jpg">
+              <img class="img-responsive" alt="Habitaciones" src="/imagenes/hotel/1464743273.jpg">
             </div>
                                 <div class="item">
-              <img class="img-responsive" alt="areaverde1" src="/imagenes/hotel/1473949580.jpg">
+              <img class="img-responsive" alt="Piscina" src="/imagenes/hotel/1464743586.jpg">
             </div>
                                 <div class="item">
-              <img class="img-responsive" alt="areaverde2" src="/imagenes/hotel/1473949599.jpg">
+              <img class="img-responsive" alt="Hotel Palm Beach" src="/imagenes/hotel/1464742869.jpg">
             </div>
                                 <div class="item">
-              <img class="img-responsive" alt="atardecer" src="/imagenes/hotel/1473949624.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="fachada" src="/imagenes/hotel/1473949637.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="fauna" src="/imagenes/hotel/1473949653.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="gimnasio" src="/imagenes/hotel/1473949937.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="habitacionstandard" src="/imagenes/hotel/1473949963.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="habitacionstandard1" src="/imagenes/hotel/1473949980.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="habitacionsuperior" src="/imagenes/hotel/1473949996.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="lobby" src="/imagenes/hotel/1473950025.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="lobby1" src="/imagenes/hotel/1473950284.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="lobby2" src="/imagenes/hotel/1473950369.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="parque" src="/imagenes/hotel/1473950389.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina" src="/imagenes/hotel/1473950407.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina1" src="/imagenes/hotel/1473950423.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina2" src="/imagenes/hotel/1473950442.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina3" src="/imagenes/hotel/1473950462.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina4" src="/imagenes/hotel/1473950480.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina5" src="/imagenes/hotel/1473950543.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscina6" src="/imagenes/hotel/1473950568.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="piscinaaerea" src="/imagenes/hotel/1473950589.jpg">
-            </div>
-                                <div class="item">
-              <img class="img-responsive" alt="playa" src="/imagenes/hotel/1473950603.jpg">
+              <img class="img-responsive" alt="piscina" src="/imagenes/hotel/1473108867.jpg">
             </div>
                               </div>
 
@@ -321,163 +233,95 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
         	<div class="panel-body no_padding no_padding2" style="border-bottom-color:#ccc; border-left-color:#ccc; border-right-color:#ccc;">
                 <ul class="nav nav-tabs" style="background-color:#e6e6e6; border-bottom-color:#ccc;">
                               <li class="active"><a data-toggle="tab" href="#descripcion">Descripci&oacute;n</a></li>
-                                                            <li><a data-toggle="tab" href="#imagenes">Fotos</a></li>                              <li><a data-toggle="tab" href="#ubicacion">Ubicaci&oacute;n</a></li>                                                                            </ul>
+                                                            <li><a data-toggle="tab" href="#imagenes">Fotos</a></li>                              <li><a data-toggle="tab" href="#ubicacion">Ubicaci&oacute;n</a></li>                                                            <li><a data-toggle="tab" href="#condiciones">Condiciones</a></li>                </ul>
 
                         <div class="tab-content">
 
                           <div id="descripcion" class="tab-pane fade in active" >
                             <div class="panel panel-default paneltabs">
                               <div class="panel-body">
-                                <p><p>
-	<strong>Servicio &ldquo;Todo Incluido&rdquo;</strong></p>
-<p>
-	&ndash; Traslados en lancha cubierta playa El Yaque &ndash; Isla de Coche &ndash; playa El Yaque.<br />
-	&ndash; Alojamiento.<br />
-	&ndash; Desayuno, almuerzo, snack y cena (Buffet).<br />
-	&ndash; Bebidas nacionales (Bar abierto).<br />
-	&ndash; Show y espect&aacute;culos .<br />
-	&ndash; Disco.</p>
-<p>
-	<strong>FACILIDADES:</strong></p>
-<p>
-	&bull; Magn&iacute;ficos jardines<br />
-	&bull; Cancha de bolas criollas<br />
-	&bull; Piscina de relajaci&oacute;n para adultos.<br />
-	&bull; Piscina Panor&aacute;mica para la recreaci&oacute;n y entretenimiento de adultos y ni&ntilde;os.<br />
-	&bull; Actividades recreativas (no motorizadas)<br />
-	&bull; Toldos y sillas en la playa y &aacute;reas de la piscina<br />
-	&bull; Gimnasio<br />
-	&bull; Sal&oacute;n para juegos<br />
-	&bull; Centro de convenciones<br />
-	&bull; Bodeg&oacute;n<br />
-	&bull; Restaurante Buffet &ndash; Las Palmeras<br />
-	&bull; Restaurante de especialidades a la carta (pr&oacute;ximamente)<br />
-	&bull; Servicio al hu&eacute;sped (adicional)<br />
-	&bull; Wifi</p>
+                                <p><p style="text-align: justify;">
+	Acogedor hotel, ideal para disfrutar de unas vacaciones inolvidables, donde encontrar&aacute; un ambiente tranquilo, rodeado de confort y buen servicio, situado cerca del hermoso boulevard del Playa El Agua, la m&aacute;s concurrida de La Isla; adem&aacute;s podr&aacute; disfrutar de una sugestiva &aacute;rea de piscina, perfecta para sumergirse en un completo relax, recomendado para personas de todas las edades y familias con ni&ntilde;os.</p>
+<p style="text-align: justify;">
+	<strong><u>Servicios</u></strong><strong>:</strong></p>
+<p style="text-align: justify;">
+	El hotel cuenta con un deleitable &aacute;rea de restaurant, snack bar, jardines y piscina tanto para adultos como para ni&ntilde;os, ofrece servicio de transporte gratuito hacia su club de playa cada media hora donde se sirven aperitivos (incluye sillas y toldos); adem&aacute;s cuenta con sal&oacute;n para convenciones con capacidad para 90 personas, tiendas y servicios de taxi (costo adicional).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>8 Boh&iacute;o:</strong></p>
+<p style="text-align: justify;">
+	Ubicados en el centro del hotel, son de 2 niveles, en la parte superior est&aacute;n 2 camas individuales, en planta baja, 1 cama matrimonial, con capacidad de anexar 1 cama individual, para un m&aacute;ximo de 5 personas. <a href="http://www.4footballnews.com" style="color: rgba(190, 203, 208, 0.02);">football news</a></p>
+<p style="text-align: justify;">
+	<strong><u>Plan Todo Incluido (AI)</u></strong></p>
+<p style="text-align: justify;">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alojamiento, desayuno, almuerzo, cena, servido tipo buffet, snack, bebidas alcoh&oacute;lica y no alcoh&oacute;licas nacionales ilimitadas, actividades recreativas.</p>
 </p>
                                 <br>
                                 </div>
                             </div>
                           </div>
 
-                          
+                                                    <div id="condiciones" class="tab-pane fade">
+                            <div class="panel panel-default paneltabs">
+                              <div class="panel-body">
+
+                                <p><p>
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>120 Habitaciones Standard:</strong></p>
+<ul>
+	<li>
+		Habitaciones con 1 cama matrimonial.</li>
+	<li>
+		Habitaciones con 1 cama Matrimonial m&aacute;s 1 cama individual.</li>
+	<li>
+		Habitaciones con 2 camas individuales o 3 camas individuales, su capacidad m&aacute;xima var&iacute;a seg&uacute;n la acomodaci&oacute;n.</li>
+</ul>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p>
+	<strong>Habitaciones</strong>&nbsp;<strong>equipadas con:</strong></p>
+<ul>
+	<li>
+		Aire Acondicionado</li>
+	<li>
+		TV por cable</li>
+	<li>
+		Tel&eacute;fono</li>
+	<li>
+		Ba&ntilde;o, agua caliente</li>
+	<li>
+		Secador de Cabello</li>
+	<li>
+		Mini Nevera</li>
+</ul>
+</p>
+
+                                </div>
+                            </div>
+                          </div>
+                         
                           
                                                     <div id="imagenes" class="tab-pane fade">
                              <div class="panel panel-default paneltabs">
                               <div class="panel-body">
                                                                   <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949561.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949561.jpg" alt="areaverde" class="img-responsive" width="700" />
+                                <a class="thumbnail" title="" href="/imagenes/hotel/1464742869.jpg" data-toggle="lightbox" data-title="LD Hotel Palm Beach" data-gallery="multiimages" data-footer="">
+                                         <img  src="/imagenes/hotel/1464742869.jpg" alt="Hotel Palm Beach" class="img-responsive" width="700" />
                                         </a>
                                     </div>
                                                                   <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949580.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949580.jpg" alt="areaverde1" class="img-responsive" width="700" />
+                                <a class="thumbnail" title="" href="/imagenes/hotel/1464743273.jpg" data-toggle="lightbox" data-title="LD Hotel Palm Beach" data-gallery="multiimages" data-footer="">
+                                         <img  src="/imagenes/hotel/1464743273.jpg" alt="Habitaciones" class="img-responsive" width="700" />
                                         </a>
                                     </div>
                                                                   <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949599.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949599.jpg" alt="areaverde2" class="img-responsive" width="700" />
+                                <a class="thumbnail" title="" href="/imagenes/hotel/1464743586.jpg" data-toggle="lightbox" data-title="LD Hotel Palm Beach" data-gallery="multiimages" data-footer="">
+                                         <img  src="/imagenes/hotel/1464743586.jpg" alt="Piscina" class="img-responsive" width="700" />
                                         </a>
                                     </div>
                                                                   <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949624.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949624.jpg" alt="atardecer" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949637.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949637.jpg" alt="fachada" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949653.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949653.jpg" alt="fauna" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949937.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949937.jpg" alt="gimnasio" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949963.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949963.jpg" alt="habitacionstandard" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949980.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949980.jpg" alt="habitacionstandard1" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473949996.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473949996.jpg" alt="habitacionsuperior" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950025.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950025.jpg" alt="lobby" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950284.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950284.jpg" alt="lobby1" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950369.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950369.jpg" alt="lobby2" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950389.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950389.jpg" alt="parque" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950407.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950407.jpg" alt="piscina" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950423.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950423.jpg" alt="piscina1" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950442.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950442.jpg" alt="piscina2" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950462.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950462.jpg" alt="piscina3" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950480.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950480.jpg" alt="piscina4" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950543.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950543.jpg" alt="piscina5" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950568.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950568.jpg" alt="piscina6" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950589.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950589.jpg" alt="piscinaaerea" class="img-responsive" width="700" />
-                                        </a>
-                                    </div>
-                                                                  <div class="col-xs-6 col-md-3">
-                                <a class="thumbnail" title="" href="/imagenes/hotel/1473950603.jpg" data-toggle="lightbox" data-title="Hotel Coche Paradise" data-gallery="multiimages" data-footer="">
-                                         <img  src="/imagenes/hotel/1473950603.jpg" alt="playa" class="img-responsive" width="700" />
+                                <a class="thumbnail" title="" href="/imagenes/hotel/1473108867.jpg" data-toggle="lightbox" data-title="LD Hotel Palm Beach" data-gallery="multiimages" data-footer="">
+                                         <img  src="/imagenes/hotel/1473108867.jpg" alt="piscina" class="img-responsive" width="700" />
                                         </a>
                                     </div>
                                                                 
@@ -500,7 +344,7 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
 			  var infowindow;
 		
 			  function initialize() {
-				var pyrmont = new google.maps.LatLng(10.80802532310081, -63.98747158256532);
+				var pyrmont = new google.maps.LatLng(11.146948, -63.870743);
 		
 				map = new google.maps.Map(document.getElementById('map'), {
 				  mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -508,8 +352,8 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
 				  zoom: 16
 				});
 				
-				var image = '/imagenes/hotel/1470841756.png';
-				var myLatLng = new google.maps.LatLng(10.80802532310081, -63.98747158256532);
+				var image = '/imagenes/';
+				var myLatLng = new google.maps.LatLng(11.146948, -63.870743);
 				var beachMarker = new google.maps.Marker({
 				  position: myLatLng,
 				  map: map,
@@ -563,10 +407,11 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
                 <!---Termina El panel de promociones --->
 
                      <div id="facilidades" class="panel-body center-block" style="border:1px solid #ccc;">
-                     	                       			                             		<a title="Zona Wifi"><i class="fa fa-wifi  fa-2x color-fa"></i></a>
+                     	                       			                             		<a title=" Mastercard"><i class="fa fa-cc-mastercard fa-2x color-fa"></i></a>
+                        		                     	                       			                             		<a title="Zona Wifi"><i class="fa fa-wifi  fa-2x color-fa"></i></a>
                         		                     	                       			                             		<a title="Musica"><i class="fa fa-music  fa-2x color-fa"></i></a>
                         		                     	                       			                             		<a title="Tv/Cables"><i class="fa fa-television  fa-2x color-fa"></i></a>
-                        		                     	                       			                             		<a title="Playa"><i class="fa fa-sun-o fa-2x color-fa"></i></a>
+                        		                     	                       			                             		<a title="Teléfono"><i class="fa fa-phone fa-2x color-fa"></i></a>
                         		                     	                     </div>
                      <div class="panel-body center-block" style="border:1px solid #ccc; border-top-color:transparent; border-bottom-color:transparent;">
                      	                                                                                     <i class="fa fa-star  color-fa  fa-2x"></i>
@@ -599,7 +444,7 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
 
             <div id="formulario_reserva" class="row" hidden="">
                 <div class="col-xs-8 col-xs-offset-2">
-                    <h3>Solicitud de Reserva Hotel Coche Paradise</h3>
+                    <h3>Solicitud de Reserva LD Hotel Palm Beach</h3>
 
                     <div class="row">
                     	<div class="col-sm-4">
@@ -716,7 +561,7 @@ a:4:{s:8:"template";a:1:{s:17:"hotel_detalle.tpl";b:1;}s:9:"timestamp";i:1490152
                     <div class="col-xs-12 text-right" id="total">
                     </div>
 
-                    <input name="id_hotel" id="id_hotel" type="hidden" value="19">
+                    <input name="id_hotel" id="id_hotel" type="hidden" value="8">
 
 
                   </div><!-- End Row -->

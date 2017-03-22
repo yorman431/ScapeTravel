@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.9, created on 2017-03-22 04:21:36
+<?php /* Smarty version 2.6.9, created on 2017-03-22 22:43:21
          compiled from hotel_detalle.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'hotel_detalle.tpl', 354, false),array('modifier', 'count', 'hotel_detalle.tpl', 374, false),array('modifier', 'lower', 'hotel_detalle.tpl', 1070, false),array('modifier', 'capitalize', 'hotel_detalle.tpl', 1070, false),)), $this); ?>

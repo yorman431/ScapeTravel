@@ -43,7 +43,7 @@ $dias = (strtotime($fecha_s) - strtotime($fecha_i))/86400;
 
 for ($i = 1; $i <= $dias; $i++){
   
-  $sql="SELECT precio, maxAdultos, tipotarifa, nombre, precio_chd FROM habitaciones WHERE nombre = '$ocupacion' AND 
+  $sql="SELECT precio, maxAdultos, tipotarifa, nombre, precio_chd FROM habitaciones WHERE nombre = '$ocupacion' AND regimen = '$regimen' AND 
 				id_temporada = (SELECT id from temporadas	WHERE id_alojamiento = '$id_hot' AND '$fecha_actual' BETWEEN fecha_inicio AND fecha_fin)";
   
   $consulta = mysql_query($sql);
@@ -259,7 +259,7 @@ var_dump($_SESSION['reserva']);
 
 for($row=0; $row < count($_SESSION['reserva']); $row++){
 	for($col = 0; $col < count($_SESSION['reserva'][$row]); $col++){
-		if ($_SESSION['reserva'][$row][$col]['regimen'] == "Solo Desayuno"){
+		if ($_SESSION['reserva'][$row][$col]['tipotarifa'] == "Habitacion"){
 			$subtotal = $subtotal + $_SESSION['reserva'][$row][$col]['precio'];
 		}elseif($_SESSION['reserva'][$row][$col]['tipotarifa'] == "Persona"){
 			$subtotal = $subtotal + $_SESSION['reserva'][$row][$col]['precio'] * $_SESSION['reserva'][$row][$col]['adultos'];

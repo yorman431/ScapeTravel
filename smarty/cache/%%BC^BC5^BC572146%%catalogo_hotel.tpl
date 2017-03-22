@@ -1,5 +1,5 @@
 140
-a:4:{s:8:"template";a:1:{s:18:"catalogo_hotel.tpl";b:1;}s:9:"timestamp";i:1490152223;s:7:"expires";i:1490155823;s:13:"cache_serials";a:0:{}}<!DOCTYPE html>
+a:4:{s:8:"template";a:1:{s:18:"catalogo_hotel.tpl";b:1;}s:9:"timestamp";i:1490218661;s:7:"expires";i:1490222261;s:13:"cache_serials";a:0:{}}<!DOCTYPE html>
 <html><!-- InstanceBegin template="/Templates/plantilla_padre2.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
