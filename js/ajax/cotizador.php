@@ -40,6 +40,7 @@ for($i=1; $i <= $ninos; $i++){
 }
 
 $dias = (strtotime($fecha_s) - strtotime($fecha_i))/86400;
+$dias = round($dias);
 
 for ($i = 1; $i <= $dias; $i++){
   
@@ -49,7 +50,7 @@ for ($i = 1; $i <= $dias; $i++){
   $consulta = mysql_query($sql);
   $resultado = mysql_fetch_array($consulta);
   
-  if($ninos != "" || $ninos != 0){
+  if($ninos != "" && $ninos != 0){
     
     for($j=0; $j < $ninos; $j++){
       $edad= $edadninos[$j];

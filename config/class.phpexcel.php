@@ -15,7 +15,7 @@ class EXCEL extends PHPExcel{
 
   var $mensaje;
   var $canTemp;
-  
+
   var $id_alojamiento;
   var $id_temporada;
   
@@ -64,7 +64,8 @@ class EXCEL extends PHPExcel{
     $this->cantidadOk = 0;
     $this->cantidadNOk = 0;
     $this->accion = "Actualización de Productos";
-    
+    $this->id_alojamiento = $_GET['id'];
+  
     $extension = pathinfo(basename($_FILES['excel']['name']), PATHINFO_EXTENSION);
 
     if ($extension != 'xls' && $extension != 'xlsx'){
@@ -72,6 +73,7 @@ class EXCEL extends PHPExcel{
     }else{
       if ($_FILES['excel']['tmp_name']){
         $this->asignarArchivo($_FILES['excel']['tmp_name']);
+        $this->limpiar_data();
         $this->recorrerExcel();
       }else{
         $this->mensaje = "Error. No se pudo cargar el archivo";
@@ -91,8 +93,6 @@ class EXCEL extends PHPExcel{
   }
 
   function recorrerExcel(){
-    
-    $this->id_alojamiento = $_GET['id'];
     
     for($i = 25; $i <= $this->lastRow; $i++){
       $this->fecha_inicio = date("Y-m-d", strtotime(str_replace('/', '-', $this->excelHoja->getCell('H'.$i)->getValue())));
@@ -302,6 +302,13 @@ class EXCEL extends PHPExcel{
       }
       $this->precioHab = '';
     }
+  }
+  
+  function limpiar_data(){
+    $sql = "DELETE FROM habitaciones WHERE id_alojamiento = '$this->id_alojamiento'";
+    $consulta = mysql_query($sql) or die (mysql_error());
+    $sql2 = "DELETE FROM temporadas WHERE id_alojamiento = '$this->id_alojamiento'";
+    $consulta2 = mysql_query($sql2) or die (mysql_error());
   }
 
   function mostrarExcel(){
